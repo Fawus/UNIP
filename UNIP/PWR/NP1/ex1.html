@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="https://www.unip.br/" target="_blank">
+                <img src="imagens/uniplogo-Photoroom.png" alt="Logo da UNIP">
+            </a>
+        </div>
+            <div class="q1"><h2>1. Três resistores idênticos de R = 30Ω estão ligados em paralelo com uma bateria de 12V. Pode-se afirmar que a resistência equivalente do circuito é:</h2>
+                <p id="resposta1"></p>
+            <img src="imagens/resistores.jpg" alt="resistor"></div>
+
+            
+
+
+                <div class="conteudo">
+            <p>Digite o valor dos 3 resistores:</p>
+            <input type="text" id="re1" placeholder="Digite o valor da resistor 1"><br>
+            <input type="text" id="re2" placeholder="Digite o valor da resistor 2"><br>  
+            <input type="text" id="re3" placeholder="Digite o valor da resistor 3"><br>
+            <button onclick="serie()">Cálculo REQ em série:</button>
+            <button onclick="paralelo()">Cálculo REQ em paralelo:</button>    
+            <p id="mensagem"></p>
+        </div>
+        <div class="navbuttons">
+            <nav>
+                <button onclick="location.href='index.html'">&#x2B05;</button> <!--restart-->
+                <button onclick="location.href='ex1.html'">&#x21BB;</button><!---->
+                <button onclick="location.href='ex2.html'">&#x27A1;</button>
+            </nav>
+        </div>
+    </div>
+    <script src="javinha.js"></script>
+</body>
+</html>

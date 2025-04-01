@@ -1,0 +1,236 @@
+/* Configurações do corpo da página */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: rgb(211, 211, 211);
+    background: linear-gradient(-45deg, rgb(20, 20, 20), rgb(50, 50, 50), rgb(80, 80, 80));
+    background-size: 400% 400%;
+    animation: colorCascade 30s infinite;
+}
+
+/* Estilo para a capa */
+.capa {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ddd;
+    margin: 15px 0;
+}
+
+/* Animação de mudança suave */
+@keyframes colorCascade {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Estilo para o fieldset */
+fieldset {
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(50, 50, 50, 0.8);
+}
+
+/* Ajusta os botões */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1.05);
+    border-color: #777;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para os nomes */
+.nomes {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nomes p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #ccc;
+}
+
+/* Botões de navegação */
+.navbuttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+.navbuttons button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: 2px solid #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbuttons button:hover {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1.15);
+    border-color: #777;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para as divisões */
+.q1, .conteudo {
+    background-color: rgba(34, 34, 34, 0.9);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo específico para a imagem na div.q1 */
+.q1 img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* Inputs na div.conteudo */
+.conteudo input {
+    width: 85%;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    border: 1px solid #555;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+/* Texto na div.conteudo */
+.conteudo p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Botões na div.conteudo */
+.conteudo button {
+    padding: 15px 30px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    background-color: #444;
+    color: white;
+    border: 2px solid #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 15px 0;
+}
+
+.conteudo button:hover {
+    background-color: #666;
+    color: #fff;
+    transform: scale(1.1);
+    border-color: #888;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Adicionando os botões de navegação */
+.navbuttons nav button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    border: 2px solid #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbuttons nav button:hover {
+    background-color: #555;
+    color: #fff;
+    transform: scale(1.15);
+    border-color: #777;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/* Estilo para a logo */
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 300px;
+    height: auto;
+}

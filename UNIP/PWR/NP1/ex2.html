@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .q1 {
+            justify-content: center; /* Centraliza verticalmente o conteúdo */
+        }
+
+        .conteudo {
+            flex: 1; /* Ocupa os outros 50% da largura da tela */
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centraliza verticalmente o conteúdo */
+            background-color: #333; /* Cor de fundo para destacar (opcional) */
+            color: white; /* Cor do texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <a href="https://www.unip.br/" target="_blank">
+            <img src="imagens/uniplogo-Photoroom.png" alt="Logo da UNIP">
+        </a>
+    </div>
+    <div class="container">
+        <div class="q1">
+            <h2>2. Dispõe-se de três resistores de resistência 300Ω cada um. Para se obter uma resistência de 450Ω, utilizando-se os três resistores, como devemos associá-los?</h2>
+            <p id="resposta1"></p>
+            <img src="imagens/resistores.jpg" alt="resistor">
+        </div>
+        <div class="conteudo">
+            <p>Digite o valor dos 3 resistores:</p>
+            <input type="text" id="re1" placeholder="Digite o valor do resistor 1"><br>
+            <input type="text" id="re2" placeholder="Digite o valor do resistor 2"><br>  
+            <input type="text" id="re3" placeholder="Digite o valor do resistor 3"><br>
+            <button onclick="serie()">Cálculo REQ em série:</button>
+            <button onclick="paralelo()">Cálculo REQ em paralelo:</button>    
+            <p id="mensagem"></p>
+        </div>
+        <div class="navbuttons">
+            <nav>
+                <button onclick="location.href='ex1.html'">&#x2B05;</button> <!--restart-->
+                <button onclick="location.href='ex2.html'">&#x21BB;</button>
+                <button onclick="location.href='index.html'">&#x1F3E0;</button>
+            </nav>
+        </div>
+    </div>
+    <script src="javinha.js"></script>
+</body>
+</html>
