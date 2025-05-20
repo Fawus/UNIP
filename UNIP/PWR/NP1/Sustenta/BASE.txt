@@ -1,0 +1,48 @@
+ <div class="container mt-5">
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-light border-0">
+          <img src="assets/logamazon.jpg" class="" alt="" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-danger fw-bold">Título 1</h5>
+            <p class="card-text">Bolo de cenoura com cobertura de chocolate</p>
+            <a href="art/bolo.pdf" target="_blank" class="btn btn-danger w-100 fw-bold">Abrir PDF</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-light border-0">
+          <img src="assets/logamazon.jpg" class="card-img-top" alt="Postagem 2" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-danger fw-bold">Título 2</h5>
+            <p class="card-text">Descrição breve da postagem 2.</p>
+            <a href="art/postagem2.pdf" target="_blank" class="btn btn-danger w-100 fw-bold">Abrir PDF</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-light border-0">
+          <img src="assets/logamazon.jpg" class="card-img-top" alt="Postagem 3" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-danger fw-bold">Título 3</h5>
+            <p class="card-text">Descrição breve da postagem 3.</p>
+            <a href="art/postagem3.pdf" target="_blank" class="btn btn-danger w-100 fw-bold">Abrir PDF</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-light border-0">
+          <img src="assets/logamazon.jpg" class="card-img-top" alt="Postagem 4" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-danger fw-bold">Título 4</h5>
+            <p class="card-text">Descrição breve da postagem 4.</p>
+            <a href="art/postagem4.pdf" target="_blank" class="btn btn-danger w-100 fw-bold">Abrir PDF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
