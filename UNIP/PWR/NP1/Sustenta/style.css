@@ -19,7 +19,6 @@ body {
   height: 20px; /* Altura da imagem */
 }
 
-
 .NAV {
   background-color: #f8f9fa; /* Cor de fundo clara */
   padding: 10px; /* Espaçamento interno */
@@ -45,4 +44,30 @@ body {
   height: 100%; /* Preenche a altura da aba de navegação */
   font-size: 1.5rem; /* Aumenta o tamanho do texto */
   color: red; /* Define a cor do texto como vermelho */
+}
+
+.abnt-text {
+  font-family: "Times New Roman", Arial, sans-serif; /* Fonte padrão ABNT */
+  font-size: 12px; /* Tamanho da fonte */
+  line-height: 1.5; /* Espaçamento entre linhas */
+  text-align: justify; /* Alinhamento justificado */
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo verticalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  padding: 20px; /* Adiciona espaçamento nas bordas */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
+  text-align: justify; /* Justifica o texto */
+}
+
+.hover-scale:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
+}
+
+.transition {
+  transition: transform 0.3s ease; /* Suaviza a transição */
 }
