@@ -1,73 +1,73 @@
 body {
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
-  margin: 0; /* Remove margens padrão */
-  background-color: #808080; /* Define o fundo como cinza */
-}
-
-.icon-profile {
-  width: 200px; /* Aumenta o tamanho da imagem */
-  height: 200px; /* Aumenta o tamanho da imagem */
-  border-radius: 10%; /* Torna a imagem circular */
-  margin: 10px;
-}
-
-.small-icon {
-  width: 50px; /* Largura da imagem */
-  height: 20px; /* Altura da imagem */
-}
-
-.NAV {
-  background-color: #f8f9fa; /* Cor de fundo clara */
-  padding: 10px; /* Espaçamento interno */
-  border-bottom: 2px solid #ddd; /* Linha inferior */
-  font-size: 20px; /* Aumenta o tamanho do texto */
-}
-
-.NAV .nav-link {
-  display: flex;
-  align-items: center; /* Centraliza verticalmente o conteúdo */
-  height: 100%; /* Preenche a altura da aba de navegação */
-  font-size: 1.2rem; /* Define um tamanho de texto padrão */
-}
-
-.NAV .nav-link img {
-  height: 50px; /* Define a altura padrão para imagens */
-  width: auto; /* Mantém a proporção da imagem */
-}
-
-.NAV .nav-link.dropdown-toggle {
-  display: flex;
-  align-items: center; /* Centraliza verticalmente o texto e o ícone */
-  height: 100%; /* Preenche a altura da aba de navegação */
-  font-size: 1.5rem; /* Aumenta o tamanho do texto */
-  color: red; /* Define a cor do texto como vermelho */
-}
-
-.abnt-text {
-  font-family: "Times New Roman", Arial, sans-serif; /* Fonte padrão ABNT */
-  font-size: 12px; /* Tamanho da fonte */
-  line-height: 1.5; /* Espaçamento entre linhas */
-  text-align: justify; /* Alinhamento justificado */
-}
-
-.centered-content {
-  display: flex;
-  flex-direction: column; /* Organiza o conteúdo verticalmente */
-  justify-content: center; /* Centraliza verticalmente */
-  align-items: center; /* Centraliza horizontalmente */
-  padding: 20px; /* Adiciona espaçamento nas bordas */
-  height: 100vh; /* Ocupa toda a altura da tela */
-  box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
-  text-align: justify; /* Justifica o texto */
-}
-
-.hover-scale:hover {
-  transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
-}
-
-.transition {
-  transition: transform 0.3s ease; /* Suaviza a transição */
-}
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que o conteúdo ocupe toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    background-color: #808080; /* Define o fundo como cinza */
+  }
+  
+  .icon-profile {
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: 200px; /* Aumenta o tamanho da imagem */
+    border-radius: 10%; /* Torna a imagem circular */
+    margin: 10px;
+  }
+  
+  .small-icon {
+    width: 50px; /* Largura da imagem */
+    height: 20px; /* Altura da imagem */
+  }
+  
+  .NAV {
+    background-color: #f8f9fa; /* Cor de fundo clara */
+    padding: 10px; /* Espaçamento interno */
+    border-bottom: 2px solid #ddd; /* Linha inferior */
+    font-size: 20px; /* Aumenta o tamanho do texto */
+  }
+  
+  .NAV .nav-link {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    height: 100%; /* Preenche a altura da aba de navegação */
+    font-size: 1.2rem; /* Define um tamanho de texto padrão */
+  }
+  
+  .NAV .nav-link img {
+    height: 50px; /* Define a altura padrão para imagens */
+    width: auto; /* Mantém a proporção da imagem */
+  }
+  
+  .NAV .nav-link.dropdown-toggle {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto e o ícone */
+    height: 100%; /* Preenche a altura da aba de navegação */
+    font-size: 1.5rem; /* Aumenta o tamanho do texto */
+    color: red; /* Define a cor do texto como vermelho */
+  }
+  
+  .abnt-text {
+    font-family: "Times New Roman", Arial, sans-serif; /* Fonte padrão ABNT */
+    font-size: 12px; /* Tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Alinhamento justificado */
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona espaçamento nas bordas */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    box-sizing: border-box; /* Inclui o padding no cálculo do tamanho */
+    text-align: justify; /* Justifica o texto */
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
+  }
+  
+  .transition {
+    transition: transform 0.3s ease; /* Suaviza a transição */
+  }
